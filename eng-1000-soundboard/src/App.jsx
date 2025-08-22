@@ -30,6 +30,7 @@ let sounds = [
     new Sound("TA DA", "h", "ta_da.mp3"),
     new Sound("ELECTRIC SHOCK", "j", "electric_shock.mp3"),
     new Sound("ACTIVATE LEARNING POWERS!", "k", "activate_learning_powers.mp3"),
+    new Sound("CENSORED", "l", "bleep.mp3"),
 
     new Sound("BOO", "z", "boo.mp3"),
     new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
