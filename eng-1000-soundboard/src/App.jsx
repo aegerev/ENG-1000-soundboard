@@ -1,0 +1,61 @@
+import React from 'react';
+import './App.css';
+import Button from './Button'
+import Sound from "./Sound";
+
+let sounds = [
+    new Sound("BULL", "1", "bull.mp3"),
+    new Sound("BEAR", "2", "bear.mp3"),
+    new Sound("KA-CHING!", "3", "kaching.mp3"),
+    new Sound("BOWLING PINS", "4", "bowling.mp3"),
+    new Sound("TROLLEY", "5", "trolley.mp3"),
+    new Sound("MISTER ROGERS", "6", "misterogers.mp3"),
+    new Sound("TRAIN WRECK", "7", "train_wreck.mp3"),
+    new Sound("DOG", "8", "dog.mp3"),
+
+    new Sound("BUZZER", "q", "buzzer.mp3"),
+    new Sound("FEELING OF ACCOMPLISHMENT", "w", "accomplishment.mp3"),
+    new Sound("IT'S GONNA BE OK", "e", "look_forward.mp3"),
+    new Sound("THE LITTLE MERMAID NEW ADVENTURES", "r", "the_little_mermaid_new_adventures.mp3"),
+    new Sound("WHEN YOU WONDER, YOU'RE LEARNING", "t", "wonder_learn.mp3"),
+    new Sound("HORSE RACE", "y", "horse_race.mp3"),
+    new Sound("LOOK AND LISTEN", "u", "look_and_listen.mp3"),
+    new Sound("APPLAUSE", "i", "applause.mp3"),
+
+    new Sound("BABY", "a", "baby.mp3"),
+    new Sound("TRIPLE BUY", "s", "buy.mp3"),
+    new Sound("AWAKENING", "d", "drums_of_liberation.mp3"),
+    new Sound("KIKoRIKI", "f", "kikOriki.mp3"),
+    new Sound("DONKEY", "g", "burro.mp3"),
+    new Sound("TA DA", "h", "ta_da.mp3"),
+    new Sound("ELECTRIC SHOCK", "j", "electric_shock.mp3"),
+    new Sound("ACTIVATE LEARNING POWERS!", "k", "activate_learning_powers.mp3"),
+
+    new Sound("BOO", "z", "boo.mp3"),
+    new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
+    new Sound("HOLIDAYS", "c", "holidays.mp3"),
+    new Sound("THEY KNOW NOTHING", "v", "know_nothing.mp3"),
+    new Sound("GONG", "b", "gong.mp3"),
+    new Sound("DON'T BUY", "n", "dont_buy.mp3"),
+    new Sound("BOOT UP", "m", "startup.mp3"),
+    new Sound("____ IS SHUTTING DOWN", ",", "shutdown.mp3"),
+    
+]
+
+const buttons = [];
+for (let i = 0; i < sounds.length; i++) {
+    // note: we are adding a key prop here to allow react to uniquely identify each
+    // element in this array. see: https://reactjs.org/docs/lists-and-keys.html
+    buttons.push(<Button key={i} sound={sounds[i]} />);
+}
+function App() {
+    return (
+        <div className="App">
+            <div className="App-Button-container">
+                {buttons}
+            </div>
+        </div>
+    );
+}
+
+export default App;
