@@ -22,7 +22,7 @@ let sounds = [
     new Sound("LOOK AND LISTEN", "u", "look_and_listen.mp3"),
     new Sound("APPLAUSE", "i", "applause.mp3"),
 
-    new Sound("BABY", "a", "baby.mp3"),
+    new Sound("EXPERIMENT SEGMENT", "a", "experiment.mp3"),
     new Sound("TRIPLE BUY", "s", "buy.mp3"),
     new Sound("AWAKENING", "d", "drums_of_liberation.mp3"),
     new Sound("KIKoRIKI", "f", "kikOriki.mp3"),
