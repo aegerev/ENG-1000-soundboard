@@ -10,8 +10,9 @@ let sounds = [
     new Sound("BOWLING PINS", "4", "bowling.mp3"),
     new Sound("TROLLEY", "5", "trolley.mp3"),
     new Sound("MISTER ROGERS", "6", "misterogers.mp3"),
-    new Sound("TRAIN WRECK", "7", "train_wreck.mp3"),
+    new Sound("HOME", "7", "home.mp3"),
     new Sound("DOG", "8", "dog.mp3"),
+    new Sound("TRAIN WRECK", "9", "train_wreck.mp3"),
 
     new Sound("BUZZER", "q", "buzzer.mp3"),
     new Sound("FEELING OF ACCOMPLISHMENT", "w", "accomplishment.mp3"),
@@ -21,6 +22,7 @@ let sounds = [
     new Sound("HORSE RACE", "y", "horse_race.mp3"),
     new Sound("LOOK AND LISTEN", "u", "look_and_listen.mp3"),
     new Sound("APPLAUSE", "i", "applause.mp3"),
+    new Sound("SPEEDY DELIVERY!", "o", "speedy_delivery.mp3"),
 
     new Sound("EXPERIMENT SEGMENT", "a", "experiment.mp3"),
     new Sound("TRIPLE BUY", "s", "buy.mp3"),
@@ -31,6 +33,7 @@ let sounds = [
     new Sound("ELECTRIC SHOCK", "j", "electric_shock.mp3"),
     new Sound("ACTIVATE LEARNING POWERS!", "k", "activate_learning_powers.mp3"),
     new Sound("CENSORED", "l", "bleep.mp3"),
+    new Sound("EASY", ";", "that_was_easy.mp3"),
 
     new Sound("BOO", "z", "boo.mp3"),
     new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
