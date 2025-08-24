@@ -24,7 +24,7 @@ let sounds = [
     new Sound("APPLAUSE", "i", "applause.mp3"),
     new Sound("SPEEDY DELIVERY!", "o", "speedy_delivery.mp3"),
 
-    new Sound("EXPERIMENT SEGMENT", "a", "experiment.mp3"),
+    new Sound("ENG-1000", "a", "ENG1000_eyecatcher.mp3"),
     new Sound("TRIPLE BUY", "s", "buy.mp3"),
     new Sound("AWAKENING", "d", "drums_of_liberation.mp3"),
     new Sound("KIKoRIKI", "f", "kikOriki.mp3"),
