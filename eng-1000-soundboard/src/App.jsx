@@ -39,8 +39,8 @@ let sounds = [
     new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
     new Sound("HOLIDAYS", "c", "holidays.mp3"),
     new Sound("THEY KNOW NOTHING", "v", "know_nothing.mp3"),
-    new Sound("GONG", "b", "gong.mp3"),
-    new Sound("DON'T BUY", "n", "dont_buy.mp3"),
+    new Sound("DOWN THE DRAIN", "b", "toilet.mp3"),
+    new Sound("CODE RED", "n", "breaking_news.mp3"),
     new Sound("BOOT UP", "m", "startup.mp3"),
     new Sound("____ IS SHUTTING DOWN", ",", "shutdown.mp3"),
     
