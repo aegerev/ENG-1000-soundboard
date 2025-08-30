@@ -1,4 +1,6 @@
 import React from 'react';
+import logo from './assets/eng1000.png';
+
 import './App.css';
 import Button from './Button'
 import Sound from "./Sound";
@@ -27,7 +29,7 @@ let sounds = [
     new Sound("FLY EAGLES FLY", "p", "fly_eagles_fly.mp3"),
 
     new Sound("ENG-1000", "a", "ENG1000_eyecatcher.mp3"),
-    new Sound("TRIPLE BUY", "s", "buy.mp3"),
+    new Sound("HARD TIME PROCESSING", "s", "dialup.mp3"),
     new Sound("AWAKENING", "d", "drums_of_liberation.mp3"),
     new Sound("KIKoRIKI", "f", "kikOriki.mp3"),
     new Sound("DONKEY", "g", "burro.mp3"),
@@ -57,6 +59,7 @@ for (let i = 0; i < sounds.length; i++) {
 function App() {
     return (
         <div className="App">
+        <img src={logo} alt="ENG-1000 Logo" />
             <div className="App-Button-container">
                 {buttons}
             </div>

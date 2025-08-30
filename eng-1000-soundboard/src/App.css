@@ -21,6 +21,23 @@
     }
 }
 
-body {
-    background: #00FFFF;
+.logo-container {
+  background-image: url('./assets/eng1000.png');
+}
+
+.App img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This makes the image cover the entire area */
+  position: absolute; /* To position it relative to its parent .App */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Send it to the background */
+}
+
+.App {
+  position: relative; /* Needed for absolute positioning of the image */
+  height: 100vh; /* Make sure the App container takes full viewport height */
+  width: 100vw; /* Make sure the App container takes full viewport width */
+  overflow: hidden; /* Hide any overflow from the image */
 }
