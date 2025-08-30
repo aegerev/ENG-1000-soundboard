@@ -20,7 +20,7 @@ let sounds = [
     new Sound("IT'S GONNA BE OK", "e", "look_forward.mp3"),
     new Sound("THE LITTLE MERMAID NEW ADVENTURES", "r", "the_little_mermaid_new_adventures.mp3"),
     new Sound("WHEN YOU WONDER, YOU'RE LEARNING", "t", "wonder_learn.mp3"),
-    new Sound("HORSE RACE", "y", "horse_race.mp3"),
+    new Sound("WHAT?!", "y", "no_way!.mp3"),
     new Sound("LOOK AND LISTEN", "u", "look_and_listen.mp3"),
     new Sound("APPLAUSE", "i", "applause.mp3"),
     new Sound("SPEEDY DELIVERY!", "o", "speedy_delivery.mp3"),
