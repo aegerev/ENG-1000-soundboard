@@ -15,6 +15,7 @@ let sounds = [
     new Sound("HOME", "7", "home.mp3"),
     new Sound("DOG", "8", "dog.mp3"),
     new Sound("TRAIN WRECK", "9", "train_wreck.mp3"),
+    new Sound("WHAT DO YOU DO (WITH THE MAD THAT YOU FEEL)","0","what-you-do.mp3"),
     
 
     new Sound("BUZZER", "q", "buzzer.mp3"),
