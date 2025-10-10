@@ -16,6 +16,7 @@ let sounds = [
     new Sound("DOG", "8", "dog.mp3"),
     new Sound("TRAIN WRECK", "9", "train_wreck.mp3"),
     new Sound("WHAT DO YOU DO (WITH THE MAD THAT YOU FEEL)","0","what-you-do.mp3"),
+    new Sound("GET LOST!","-","get-outta-here.mp3"),
     
 
     new Sound("BUZZER", "q", "buzzer.mp3"),
@@ -39,6 +40,7 @@ let sounds = [
     new Sound("MAD MONEY MANIFESTO", "k", "mad_money_manifesto.mp3"),
     new Sound("CENSORED", "l", "bleep.mp3"),
     new Sound("EASY", ";", "that_was_easy.mp3"),
+    new Sound("TTFN", ";", "buhbuy-bobo.mp3"),
 
     new Sound("BOO", "z", "boo.mp3"),
     new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
