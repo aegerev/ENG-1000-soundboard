@@ -41,6 +41,7 @@ let sounds = [
     new Sound("CENSORED", "l", "bleep.mp3"),
     new Sound("EASY", ";", "that_was_easy.mp3"),
     new Sound("TTFN", ";", "buhbuy-bobo.mp3"),
+    new Sound("CAN'T HEAR YOU!", "'", "sorry-cant-hear.mp3"),
 
     new Sound("BOO", "z", "boo.mp3"),
     new Sound("ALL ABOARD", "x", "all_aboard.mp3"),
