@@ -52,6 +52,7 @@ let sounds = [
     new Sound("BOOT UP", "m", "startup.mp3"),
     new Sound("____ IS SHUTTING DOWN", ",", "shutdown.mp3"),
     new Sound("CAPITAL CALL", ".", "executive_decision.mp3"),
+    new Sound("KEEP OUT!", "/", "warning.mp3"),
 ]
 
 const buttons = [];
