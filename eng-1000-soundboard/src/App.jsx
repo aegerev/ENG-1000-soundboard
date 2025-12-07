@@ -16,10 +16,9 @@ let sounds = [
     new Sound("DOG", "8", "dog.mp3"),
     new Sound("TRAIN WRECK", "9", "train_wreck.mp3"),
     new Sound("WHAT DO YOU DO (WITH THE MAD THAT YOU FEEL)","0","what-you-do.mp3"),
-    new Sound("GET LOST!","-","get-outta-here.mp3"),
+    new Sound("NEW YEAR, SAME MISSION","-","newyear_samemission.mp3"),
     new Sound("PRIMED AND READY", "=","eagles-mentality.mp3"),
     
-
     new Sound("BUZZER", "q", "buzzer.mp3"),
     new Sound("FEELING OF ACCOMPLISHMENT", "w", "accomplishment.mp3"),
     new Sound("IT'S GONNA BE OK", "e", "look_forward.mp3"),
@@ -30,7 +29,6 @@ let sounds = [
     new Sound("APPLAUSE", "i", "applause.mp3"),
     new Sound("SPEEDY DELIVERY!", "o", "speedy_delivery.mp3"),
     new Sound("FLY EAGLES FLY", "p", "fly_eagles_fly.mp3"),
-    new Sound("NEW YEAR, SAME MISSION", "\", "newyear_samemission.mp3")
 
     new Sound("ENG-1000", "a", "ENG1000_eyecatcher.mp3"),
     new Sound("HARD TIME PROCESSING", "s", "dialup.mp3"),
