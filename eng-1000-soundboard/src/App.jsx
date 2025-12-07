@@ -9,7 +9,7 @@ let sounds = [
     new Sound("BULL", "1", "bull.mp3"),
     new Sound("BEAR", "2", "bear.mp3"),
     new Sound("KA-CHING!", "3", "kaching.mp3"),
-    new Sound("RING THE BELL", "4", "bell.mp3"),
+    new Sound("ATLANTICAN GREAT WHITE SHARKS", "4", "atlantica_GreatWhiteSharkPowers.mp3"),
     new Sound("ALWAYS US. ALWAYS ATLANTICA. ALWAYS ARIEL.", "5", "always-us.mp3"),
     new Sound("MISTER ROGERS", "6", "misterogers.mp3"),
     new Sound("HOME", "7", "home.mp3"),
