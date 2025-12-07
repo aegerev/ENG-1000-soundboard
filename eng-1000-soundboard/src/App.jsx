@@ -30,7 +30,7 @@ let sounds = [
     new Sound("APPLAUSE", "i", "applause.mp3"),
     new Sound("SPEEDY DELIVERY!", "o", "speedy_delivery.mp3"),
     new Sound("FLY EAGLES FLY", "p", "fly_eagles_fly.mp3"),
-    new Sound("NEW YEAR, SAME MISSION", "[", "newyear_samemission.mp3")
+    new Sound("NEW YEAR, SAME MISSION", "\", "newyear_samemission.mp3")
 
     new Sound("ENG-1000", "a", "ENG1000_eyecatcher.mp3"),
     new Sound("HARD TIME PROCESSING", "s", "dialup.mp3"),
