@@ -20,9 +20,9 @@ let sounds = [
     new Sound("PRIMED AND READY", "=","eagles-mentality.mp3"),
     
     new Sound("BUZZER", "q", "buzzer.mp3"),
-    new Sound("NEW DAY, NEW OPPORTUNITY", "Q", "the-hard-way.mp3"
     new Sound("FEELING OF ACCOMPLISHMENT", "w", "accomplishment.mp3"),
     new Sound("IT'S GONNA BE OK", "e", "look_forward.mp3"),
+    new Sound("NEW DAY, NEW OPPORTUNITY", "E", "the-hard-way.mp3"),
     new Sound("THE LITTLE MERMAID NEW ADVENTURES", "r", "the_little_mermaid_new_adventures.mp3"),
     new Sound("WHEN YOU WONDER, YOU'RE LEARNING", "t", "wonder_learn.mp3"),
     new Sound("WHAT?!", "y", "no_way!.mp3"),
