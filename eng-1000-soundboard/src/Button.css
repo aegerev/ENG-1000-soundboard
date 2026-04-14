@@ -8,7 +8,7 @@
 }
 
 .Button-button {
-    background: #D9D919;
+    background: #7fffd4;
     border-radius: 50%;
     width: 90%;
     height: 90%;
@@ -31,7 +31,7 @@
 }
 
 .pressed {
-    background: #D9D919;
+    background: #7fffd4;
     transform: translateY(2px);
     filter: drop-shadow(8px 8px rgba(0, 0, 0, 0.53));
 
