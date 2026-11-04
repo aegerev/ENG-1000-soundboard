@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './assets/tlmna.jpg';
+import logo from './assets/images-1.jpg';
 
 import './App.css';
 import Button from './Button'
